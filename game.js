@@ -79,8 +79,6 @@ class Game{
                     player.distance += 10
                     player.update();
                 }
-
-                if(gameState === 1){
             
                    if(frameCount % 100 === 0) {
                      fruits = createSprite(random(100, 1000), 0, 100, 100);
@@ -116,7 +114,7 @@ class Game{
                        this.scoredisplay.position(800, 80);
                        this.scoredisplay.style('font-size', '40px');
                        this.scoredisplay.style('color', 'skyblue');
-                }
+                
          drawSprites();         
     }
    

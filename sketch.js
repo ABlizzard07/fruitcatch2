@@ -21,7 +21,7 @@ function preload(){
   fruit3_img = loadImage("melon2.png");
   fruit4_img = loadImage("orange2.png");
   fruit5_img = loadImage("pineapple2.png");
-  fruitGroup = createGroup();
+  fruitGroup = new Group();
 }
 function setup() {
   createCanvas(1000, 600);
